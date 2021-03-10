@@ -32,7 +32,6 @@
         if (e.key !== word[loc]) {
             return;
         }
-
         loc++;
 
         //1: _ed
