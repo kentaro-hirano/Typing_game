@@ -5,17 +5,6 @@ body {
 }
 
 #target {
-    font-size: 48px;
+    font-size: 40px;
     letter-spacing: 0.1em;
-}
-
-.restart {
-    display: block;
-    margin: 0 auto;
-    background-color: pink;
-    padding: 15px;
-    width: 70px;
-    border-radius: 30px;
-    cursor: pointer;
-    font-weight: bold;
 }
