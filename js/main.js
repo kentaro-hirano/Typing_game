@@ -15,7 +15,6 @@
     let isPlaying = false;
     const target = document.getElementById('target');
 
-
     document.addEventListener('click', () => {
         if (isPlaying) {
             return;
