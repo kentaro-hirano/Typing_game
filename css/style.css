@@ -2,9 +2,20 @@ body {
     padding-top: 40px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    user-select: none;
 }
 
 #target {
     font-size: 40px;
     letter-spacing: 0.1em;
+}
+
+.restart {
+    width: 70px;
+    background-color: pink;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
 }
