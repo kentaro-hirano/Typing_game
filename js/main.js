@@ -44,17 +44,4 @@
             setWord();
         }
     });
-
-    reStart();
-
-    function reStart() {
-        restart.addEventListener('click', () => {
-            result.textContent = "";
-            restart.classList.remove('restart');
-            restart.textContent = "";
-            startTime = Date.now();
-            words = ['red', 'blue', 'pink'];
-            setWord();
-        });
-    }
 }
